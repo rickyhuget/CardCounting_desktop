@@ -58,8 +58,8 @@ def stopDeal():
 
 def startDeal():
     global numOfIterations
-    #numOfIterations = random.randrange((40*numOfDecks),(50*numOfDecks))
-    numOfIterations = 5
+    numOfIterations = random.randrange((40*numOfDecks),(50*numOfDecks))
+    #numOfIterations = 5
     global runningCount
     runningCount = 0
 
