@@ -3,8 +3,7 @@ import random
 
 def createCardStack(numOfDecks):
   cardStack = []
-  x = range(numOfDecks)
-  for n in x:
+  for n in range(numOfDecks):
     for value in range(2, 10):
         # ASCII value used by adding 48 and converting to char
         # value and suit are used to identify appropriate image in file 'card_images'
